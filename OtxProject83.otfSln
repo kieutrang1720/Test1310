@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="id_396e20dbb7c2426eacfe9ad476fb6037" UseDiagRuntimeSystem="true" xmlns="http://www.emotive.de/odf">
+  <Project Name="OtxProject83" Path="OtxProject83\OtxProject83.otfPrj" />
+  <Project Name="OtxPlayerProject1" Path="OtxPlayerProject1\OtxPlayerProject1.playPrj" />
+  <Project Name="OtxProject83OtxPlaylistProject1" Path="OtxProject83OtxPlaylistProject1\OtxProject83OtxPlaylistProject1.playPrj" />
+  <Project Name="OtxTestProject1" Path="OtxTestProject1\OtxTestProject1.otfPrj" />
+  <StartupProject Name="OtxProject83" />
+  <Config>
+    <MvciServer />
+  </Config>
+  <DiagCom>
+    <DbConfig />
+    <ECUMappings />
+  </DiagCom>
+</Solution>

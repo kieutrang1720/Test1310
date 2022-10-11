@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OtxPlayerProject1" version="2.1.0" schemaVersion="1.0" xmlns="http://www.emotive.de/Player.xsd">
+  <projects />
+  <monitors>
+    <monitor name="Monitor1" tableLayoutRef="Monitor1" autoStartCommand="">
+      <displayName TI="">Monitor1</displayName>
+    </monitor>
+  </monitors>
+  <contextVariables />
+  <globalOnChangedBehaviours />
+  <playList name="PlayList1" />
+  <commands />
+</player>

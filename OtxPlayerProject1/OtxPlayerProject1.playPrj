@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Player xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OtxPlayerProject1" IsPlayListProject="false" xmlns="http://www.emotive.de/eTesterPlayer.xsd">
+  <References />
+  <OtxMapping />
+  <ResourceMapping />
+  <PlayerLayout Name="OtxPlayerProject1" Path="OtxPlayerProject1.playLay" />
+  <Playlist Name="OtxPlayerProject1" Path="OtxPlayerProject1.playLst" />
+  <InstructionsFile TemplateName="Default.ptxt" ShortName="OtpProject" />
+</Player>

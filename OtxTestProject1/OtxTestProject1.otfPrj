@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="id_26f58b925df5427f8cdefb898b8f6ad4" IsTestProject="true" xmlns="http://www.emotive.de/odf">
+  <Applications />
+  <References />
+  <MakeBackup />
+  <StartupApplication Procedure="OtxTestProject1Package1.Document1.TestProcedure1">
+    <ParameterCollection />
+  </StartupApplication>
+  <ExportPtx />
+  <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
+  <MetaDataLayout />
+  <TestResultHandling />
+</Project>

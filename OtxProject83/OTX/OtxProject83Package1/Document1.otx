@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_3a562b2d12bf401786d394cfa672a3f2" name="Document1" package="OtxProject83Package1" version="1.0.0.0" timestamp="2022-10-11T09:57:22.4861073+07:00">
+  <metaData>
+    <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
+    <data key="OtfVersion">6.99.0.46173</data>
+  </metaData>
+  <procedures>
+    <procedure id="id_c7c761f25a584b82a5144df36bc9142b" name="main" visibility="PUBLIC">
+      <realisation>
+        <flow>
+          <action name="WriteLog1" id="WriteLog_f3f8f956451b435aa292e0ec9e237b3d">
+            <realisation xsi:type="log:WriteLog">
+              <log:level xsi:type="log:SeverityLevelLiteral" value="TRACE" />
+              <log:message xsi:type="StringLiteral" value="aaaa" />
+            </realisation>
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>
