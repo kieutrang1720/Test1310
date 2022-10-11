@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CATALOG xmlns:ptxXhtml="http://iso.org/OTX/1.0.0/Auxiliaries/ContainerXhtml" CONTAINER-VERSION="1.0.0.0" xmlns="http://iso.org/OTX/1.0.0/Auxiliaries/Container">
+  <SHORT-NAME>OtxPlayerProject3</SHORT-NAME>
+  <ABLOCKS>
+    <ABLOCK UPD="NEW">
+      <SHORT-NAME>PTXDATA</SHORT-NAME>
+      <CATEGORY>PTX-DATA</CATEGORY>
+      <FILES>
+        <FILE CREATION-DATE="2022-07-14T14:47:15.9125787+07:00" CREATOR="OTF" MIME-TYPE="other">PTX/OtxProject1.ptx</FILE>
+      </FILES>
+    </ABLOCK>
+  </ABLOCKS>
+</CATALOG>

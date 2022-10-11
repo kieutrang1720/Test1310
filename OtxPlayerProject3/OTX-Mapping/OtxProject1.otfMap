@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otxMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.1.0" name="OtxProject1" description="" xmlns="http://www.emotive.de/AssemblyScreenMapping.xsd">
+  <createdForProjectRef name="OtxProject1" version="1.0.0.0" />
+  <applications>
+    <application id="AppId1" path="OtxScreens.dll">
+      <init>
+        <parameters />
+      </init>
+      <deinit>
+        <parameters />
+      </deinit>
+    </application>
+  </applications>
+  <mappings>
+    <screenMapping appIdRef="AppId1">
+      <screen name="OtxScreens.Screens.FixedValueScreenTest" signatureName="OtxProject1Package1.Document1.FixedValueScreenTest">
+        <mappingElements>
+          <mappingElement name="StringLabel">
+            <mapToElement>StringLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="IntegerLabel">
+            <mapToElement>IntegerLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="BoolLabel">
+            <mapToElement>BoolLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="ByteFieldLabel">
+            <mapToElement>ByteFieldLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="ListLabel">
+            <mapToElement>ListLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="MapLabel">
+            <mapToElement>MapLabel</mapToElement>
+          </mappingElement>
+          <mappingElement name="InOutInteger">
+            <mapToElement>InOutInteger</mapToElement>
+          </mappingElement>
+        </mappingElements>
+      </screen>
+    </screenMapping>
+  </mappings>
+  <initialValues />
+</otxMapping>

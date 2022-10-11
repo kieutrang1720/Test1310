@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_dba6712cd6f44a4babaa55ee9ae86d88" name="Document1" package="OtxProject1Package1" version="1.0.0.0" timestamp="2022-07-14T13:47:14.8950332+07:00">
+  <signatures>
+    <signature name="FixedValueScreenTest" id="Signature_29a5b8c28c9d48ea862c27f84aee9935">
+      <realisation xsi:type="hmi:ScreenSignature">
+        <hmi:parameters>
+          <hmi:inParam name="StringLabel" id="ScreenInParameterDeclaration_90a0bb54f39e4ef3b9ebc88fc26d384c">
+            <realisation>
+              <dataType xsi:type="String">
+                <init value="" />
+              </dataType>
+            </realisation>
+          </hmi:inParam>
+          <hmi:inParam name="IntegerLabel" id="ScreenInParameterDeclaration_4ad16dcd67234a5b99bd09c23e66b452">
+            <realisation>
+              <dataType xsi:type="Integer">
+                <init value="0" />
+              </dataType>
+            </realisation>
+          </hmi:inParam>
+          <hmi:inParam name="BoolLabel" id="ScreenInParameterDeclaration_ed25386376aa4819b4acd176fd234d71">
+            <realisation>
+              <dataType xsi:type="Boolean">
+                <init value="false" />
+              </dataType>
+            </realisation>
+          </hmi:inParam>
+          <hmi:inParam name="ByteFieldLabel" id="ScreenInParameterDeclaration_274f41ef45ed4ce38fbbf21f2119bf7f">
+            <realisation>
+              <dataType xsi:type="ByteField" />
+            </realisation>
+          </hmi:inParam>
+          <hmi:inParam name="ListLabel" id="ScreenInParameterDeclaration_8558d8681fea490ea28bef863c161e25">
+            <realisation>
+              <dataType xsi:type="List">
+                <itemType xsi:type="String" />
+                <init>
+                  <itemType xsi:type="String" />
+                </init>
+              </dataType>
+            </realisation>
+          </hmi:inParam>
+          <hmi:inParam name="MapLabel" id="ScreenInParameterDeclaration_50bed63aac9b497dbf017a527b097e71">
+            <realisation>
+              <dataType xsi:type="Map">
+                <keyType xsi:type="String" />
+                <valueType xsi:type="Map">
+                  <keyType xsi:type="Integer" />
+                  <valueType xsi:type="String" />
+                </valueType>
+                <init>
+                  <keyType xsi:type="String" />
+                  <valueType xsi:type="Map">
+                    <keyType xsi:type="Integer" />
+                    <valueType xsi:type="String" />
+                  </valueType>
+                </init>
+              </dataType>
+            </realisation>
+          </hmi:inParam>
+          <hmi:inoutParam name="InOutInteger" id="ScreenInOutParameterDeclaration_28f05c676813418286c205f5de1dbfda">
+            <realisation>
+              <dataType xsi:type="Integer">
+                <init value="0" />
+              </dataType>
+            </realisation>
+          </hmi:inoutParam>
+        </hmi:parameters>
+      </realisation>
+    </signature>
+  </signatures>
+  <procedures>
+    <procedure id="id_cb7907ec62df404187ae318455bf3eff" name="main" visibility="PUBLIC">
+      <realisation>
+        <declarations>
+          <variable name="StringLabel1" id="VariableDeclaration_6e5a55039c6b40768007410b6c7a76b7">
+            <realisation>
+              <dataType xsi:type="String">
+                <init value="String label" />
+              </dataType>
+            </realisation>
+          </variable>
+          <variable name="IntegerLabel1" id="VariableDeclaration_be2670eb1d4042c7839aaa59a8948ba0">
+            <realisation>
+              <dataType xsi:type="Integer">
+                <init value="12" />
+              </dataType>
+            </realisation>
+          </variable>
+          <variable name="BoolLabel1" id="VariableDeclaration_01c990d0408246c7a220840fc4137ae4">
+            <realisation>
+              <dataType xsi:type="Boolean" />
+            </realisation>
+          </variable>
+          <variable name="ByteFieldLabel1" id="VariableDeclaration_74fdc3c840694a7b831a4e5ed240ed24">
+            <realisation>
+              <dataType xsi:type="ByteField">
+                <init value="AB" />
+              </dataType>
+            </realisation>
+          </variable>
+          <variable name="ListLabel1" id="VariableDeclaration_26916f8148634bee8376ded44765879b">
+            <realisation>
+              <dataType xsi:type="List">
+                <itemType xsi:type="String" />
+                <init>
+                  <itemType xsi:type="String" />
+                  <items>
+                    <item xsi:type="StringLiteral" value="a" />
+                    <item xsi:type="StringLiteral" value="b" />
+                  </items>
+                </init>
+              </dataType>
+            </realisation>
+          </variable>
+          <variable name="MapLabel1" id="VariableDeclaration_71d97c86d085412ca6544823d43b8c76">
+            <realisation>
+              <dataType xsi:type="Map">
+                <keyType xsi:type="String" />
+                <valueType xsi:type="Map">
+                  <keyType xsi:type="Integer" />
+                  <valueType xsi:type="String" />
+                </valueType>
+                <init>
+                  <keyType xsi:type="String" />
+                  <valueType xsi:type="Map">
+                    <keyType xsi:type="Integer" />
+                    <valueType xsi:type="String" />
+                  </valueType>
+                  <items>
+                    <item>
+                      <key xsi:type="StringLiteral" value="key1" />
+                      <value xsi:type="MapLiteral">
+                        <keyType xsi:type="Integer" />
+                        <valueType xsi:type="String" />
+                        <items>
+                          <item>
+                            <key xsi:type="IntegerLiteral" value="1" />
+                            <value xsi:type="StringLiteral" value="a1" />
+                          </item>
+                        </items>
+                      </value>
+                    </item>
+                  </items>
+                </init>
+              </dataType>
+            </realisation>
+          </variable>
+          <variable name="InOutInteger1" id="VariableDeclaration_ca41761d96444fbf83f8b00835e504cf">
+            <realisation>
+              <dataType xsi:type="Integer" />
+            </realisation>
+          </variable>
+        </declarations>
+        <flow>
+          <action name="FixedValueScreenTest1" id="OpenScreen_515d5dbf8ff444d9b7b053e9fa1221ae">
+            <realisation xsi:type="hmi:OpenScreen" screen="FixedValueScreenTest" modal="true">
+              <hmi:arguments>
+                <hmi:inArg param="StringLabel">
+                  <hmi:variable xsi:type="StringVariable" name="StringLabel1" />
+                </hmi:inArg>
+                <hmi:inArg param="IntegerLabel">
+                  <hmi:variable xsi:type="IntegerVariable" name="IntegerLabel1" />
+                </hmi:inArg>
+                <hmi:inArg param="BoolLabel">
+                  <hmi:variable xsi:type="BooleanVariable" name="BoolLabel1" />
+                </hmi:inArg>
+                <hmi:inArg param="ByteFieldLabel">
+                  <hmi:variable xsi:type="ByteFieldVariable" name="ByteFieldLabel1" />
+                </hmi:inArg>
+                <hmi:inArg param="ListLabel">
+                  <hmi:variable xsi:type="ListVariable" name="ListLabel1" />
+                </hmi:inArg>
+                <hmi:inArg param="MapLabel">
+                  <hmi:variable xsi:type="MapVariable" name="MapLabel1" />
+                </hmi:inArg>
+                <hmi:inoutArg param="InOutInteger">
+                  <hmi:variable xsi:type="IntegerVariable" name="InOutInteger1" />
+                </hmi:inoutArg>
+              </hmi:arguments>
+            </realisation>
+          </action>
+          <action name="ConfirmDialog1" id="ConfirmDialog_1da1ed48ef13418c8885d20483715519">
+            <realisation xsi:type="hmi:ConfirmDialog" />
+          </action>
+        </flow>
+      </realisation>
+    </procedure>
+  </procedures>
+</otx>

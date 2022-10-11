@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OtxPlayerProject3" version="2.1.0" schemaVersion="1.0" xmlns="http://www.emotive.de/Player.xsd">
+  <projects />
+  <monitors>
+    <monitor name="Monitor1" tableLayoutRef="Monitor1" autoStartCommand="">
+      <displayName TI="">Monitor1</displayName>
+    </monitor>
+  </monitors>
+  <contextVariables />
+  <globalOnChangedBehaviours />
+  <playList name="PlayList1" />
+  <commands>
+    <command name="main" monitorRef="Monitor1">
+      <controlFile controlFileIdRef="ControlFile_9b17b564f1f247f3939ac87ec368f857" commandType="ProcedureCall" idRef="OtxProcedureCall_d998446599f744e1a6eda8ec12838c77" initState="Enabled" />
+      <displayName>main</displayName>
+    </command>
+  </commands>
+</player>

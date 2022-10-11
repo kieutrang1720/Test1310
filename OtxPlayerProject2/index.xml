@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CATALOG xmlns:ptxXhtml="http://iso.org/OTX/1.0.0/Auxiliaries/ContainerXhtml" xmlns="http://iso.org/OTX/1.0.0/Auxiliaries/Container">
+  <COMPANY-DATAS>
+    <COMPANY-DATA ID="ad348ae7-9163-4336-ac77-1cda0abf0580">
+      <SHORT-NAME>New_Company_1</SHORT-NAME>
+      <LONG-NAME>New Company 1</LONG-NAME>
+      <ROLES />
+      <TEAM-MEMBERS>
+        <TEAM-MEMBER ID="b05fa65a-bad5-49d4-8e11-11ba60ef0464">
+          <SHORT-NAME>Team_Member_1</SHORT-NAME>
+          <LONG-NAME>Team Member 1</LONG-NAME>
+        </TEAM-MEMBER>
+      </TEAM-MEMBERS>
+    </COMPANY-DATA>
+  </COMPANY-DATAS>
+  <ADMIN-DATA />
+</CATALOG>

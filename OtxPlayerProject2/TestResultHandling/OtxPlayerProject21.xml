@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trdm:testResultDataModel xmlns:trdm="http://iso.org/OTX/1.0.0/Auxiliaries/TestResultDataModel">
+  <trdm:properties>
+    <trdm:testResultProperty name="Property1" dataType="Boolean" />
+  </trdm:properties>
+</trdm:testResultDataModel>

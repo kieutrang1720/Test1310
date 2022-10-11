@@ -1,0 +1,60 @@
+{
+  "$schema": "./otx-control-file-schema-v2.1.json#",
+  "adminData": {
+    "id": "ControlFile_9b17b564f1f247f3939ac87ec368f857",
+    "versionId": "ControlFileVersion_03677731f59a4f4ab65fa70aa2224828",
+    "lastModified": "2022-07-14T14:33:22.3362175+07:00",
+    "created": "2022-07-14T13:59:24.4900445+07:00",
+    "authoringTool": "OTF - version 6.99.0.45600",
+    "targetRuntimeSystem": "OTP",
+    "fileVersion": "1.0.0.0",
+    "schemaVersion": "2.1"
+  },
+  "sequences": [
+    {
+      "id": "ControlSequence_cc2863561e234c3bb330a0c7d13ac4b3",
+      "displayName": "ControlSequence1",
+      "onlyForTestPurpose": false,
+      "sequence": [
+        {
+          "id": "Sequence_307a78524aa04489a8a0b88ad49f256b",
+          "displayName": "Sequence1",
+          "lanes": [
+            {
+              "displayName": "Lane1",
+              "laneSequence": []
+            }
+          ]
+        }
+      ],
+      "eventCatchSequences": [
+        {
+          "id": "EventCatchSequence_bb9282ca502b4d07bad61a04d00db66d",
+          "displayName": "EventCatchSequence1",
+          "lanes": []
+        }
+      ],
+      "finallySequence": [
+        {
+          "displayName": "FinallySequence1",
+          "lanes": []
+        }
+      ]
+    }
+  ],
+  "otxProcedureCalls": [
+    {
+      "id": "OtxProcedureCall_d998446599f744e1a6eda8ec12838c77",
+      "name": "main",
+      "displayName": "main",
+      "otxLocation": {
+        "folder": "../PTX",
+        "fileName": "OtxProject1.ptx",
+        "otxPackage": "OtxProject1Package1",
+        "otxDocument": "Document1",
+        "otxProcedure": "main"
+      },
+      "diagConnectionState": "none"
+    }
+  ]
+}
