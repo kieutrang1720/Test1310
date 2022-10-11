@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playerLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" xmlns="http://www.emotive.de/OTP/1.0.1/PlayerLayout.xsd">
+  <tableLayout name="Monitor1" dpiValue="0">
+    <columnStyles>
+      <columnStyle>
+        <style>Percent</style>
+      </columnStyle>
+      <columnStyle>
+        <style>AutoSize</style>
+      </columnStyle>
+    </columnStyles>
+    <rowStyles>
+      <rowStyle>
+        <style>AutoSize</style>
+      </rowStyle>
+      <rowStyle>
+        <style>AutoSize</style>
+      </rowStyle>
+      <rowStyle>
+        <style>Percent</style>
+      </rowStyle>
+    </rowStyles>
+    <panels>
+      <controlPanel name="panelParameter" row="1" column="0" rowSpan="1" columnSpan="1">
+        <elementRefs />
+        <growStyle>Horizontal</growStyle>
+        <title>Parameter</title>
+      </controlPanel>
+      <controlPanel name="panelContext" row="1" column="1" rowSpan="1" columnSpan="1">
+        <elementRefs />
+        <growStyle>Vertical</growStyle>
+        <title>Context</title>
+      </controlPanel>
+      <controlPanel name="panelState" row="2" column="1" rowSpan="1" columnSpan="1">
+        <elementRefs />
+        <growStyle>Vertical</growStyle>
+        <title>State</title>
+      </controlPanel>
+      <commandPanel name="panelCommand" row="0" column="0" rowSpan="1" columnSpan="2">
+        <elementRefs />
+        <growStyle>Horizontal</growStyle>
+        <title>Command</title>
+      </commandPanel>
+      <hmiScreenPanel name="panelHmi" row="2" column="0" rowSpan="1" columnSpan="1">
+        <elementRefs />
+        <growStyle>Horizontal</growStyle>
+        <title>HMI Screen</title>
+      </hmiScreenPanel>
+    </panels>
+    <controls />
+  </tableLayout>
+</playerLayout>

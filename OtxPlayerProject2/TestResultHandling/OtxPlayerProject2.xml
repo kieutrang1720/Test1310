@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trdm:testResultDataModel xmlns:trdm="http://iso.org/OTX/1.0.0/Auxiliaries/TestResultDataModel">
+  <trdm:enumerations>
+    <trdm:enumeration name="Enumeration1">
+      <trdm:element name="Element1" />
+    </trdm:enumeration>
+  </trdm:enumerations>
+</trdm:testResultDataModel>

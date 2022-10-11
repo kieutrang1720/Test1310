@@ -4,6 +4,8 @@
   <Project Name="OtxPlayerProject1" Path="OtxPlayerProject1\OtxPlayerProject1.playPrj" />
   <Project Name="OtxProject83OtxPlaylistProject1" Path="OtxProject83OtxPlaylistProject1\OtxProject83OtxPlaylistProject1.playPrj" />
   <Project Name="OtxTestProject1" Path="OtxTestProject1\OtxTestProject1.otfPrj" />
+  <Project Name="OtxProject83OtxPlaylistProject2" Path="OtxProject83OtxPlaylistProject2\OtxProject83OtxPlaylistProject2.playPrj" />
+  <Project Name="OtxPlayerProject2" Path="OtxPlayerProject2\OtxPlayerProject2.playPrj" />
   <StartupProject Name="OtxProject83" />
   <Config>
     <MvciServer />

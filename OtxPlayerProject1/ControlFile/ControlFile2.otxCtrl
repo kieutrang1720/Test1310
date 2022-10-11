@@ -1,0 +1,45 @@
+{
+  "$schema": "./otx-control-file-schema-v2.1.json#",
+  "adminData": {
+    "id": "ControlFile_fec847186cd04a1fafa661aa0d2b9596",
+    "versionId": "ControlFileVersion_611f26dee6384f30a5983923331ca12f",
+    "lastModified": "2022-10-11T10:06:37.0364568+07:00",
+    "created": "2022-10-11T10:06:37.0364568+07:00",
+    "authoringTool": "OTF - version 6.99.0.46173",
+    "targetRuntimeSystem": "OTP",
+    "fileVersion": "1.0.0.0",
+    "schemaVersion": "2.1"
+  },
+  "sequences": [
+    {
+      "id": "ControlSequence_ccaead0676354b69900fd04899ac78b2",
+      "displayName": "ControlSequence1",
+      "onlyForTestPurpose": false,
+      "sequence": [
+        {
+          "id": "Sequence_4184ee86a656446fa9ff6242a2d3a550",
+          "displayName": "Sequence1",
+          "lanes": [
+            {
+              "displayName": "Lane1",
+              "laneSequence": []
+            }
+          ]
+        }
+      ],
+      "eventCatchSequences": [
+        {
+          "id": "EventCatchSequence_5f1c170ee1c048818eb0a769a1879518",
+          "displayName": "EventCatchSequence1",
+          "lanes": []
+        }
+      ],
+      "finallySequence": [
+        {
+          "displayName": "FinallySequence1",
+          "lanes": []
+        }
+      ]
+    }
+  ]
+}
